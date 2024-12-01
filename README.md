@@ -14,7 +14,7 @@ This project is a neural network implementation inspired by Andrej Karpathy's ["
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/micrograd.git
+git clone https://github.com/aynursusuz/micrograd.git
 cd micrograd
 
 # Create virtual environment (Python 3.8+)
