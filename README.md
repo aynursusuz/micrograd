@@ -17,7 +17,6 @@ This project is a neural network implementation inspired by Andrej Karpathy's ["
 git clone https://github.com/aynursusuz/micrograd.git
 cd micrograd
 
-
 # Install dependencies
 pip install -r requirements.txt
 ```
