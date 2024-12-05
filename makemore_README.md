@@ -19,7 +19,7 @@ pip install torch numpy matplotlib jupyter
 
 2. Clone the project:
 ```bash
-git clone https://github.com/[your-username]/micrograd.git
+git clone https://github.com/aynursusuz/micrograd.git
 cd micrograd
 ```
 
