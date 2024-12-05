@@ -17,10 +17,6 @@ This project is a neural network implementation inspired by Andrej Karpathy's ["
 git clone https://github.com/aynursusuz/micrograd.git
 cd micrograd
 
-# Create virtual environment (Python 3.8+)
-python -m venv venv
-.\venv\Scripts\activate  # Windows
-source venv/bin/activate # Linux/Mac
 
 # Install dependencies
 pip install -r requirements.txt
@@ -34,39 +30,7 @@ pip install -r requirements.txt
 - Graphviz (for visualization)
 - Jupyter Notebook
 
-## Usage Examples
 
-### 1. Basic Mathematical Operations
-```python
-from engine import Value
-
-# Create variables
-a = Value(2.0)
-b = Value(-3.0)
-c = Value(10.0)
-
-# Operations
-d = a*b + c  # d = 2.0 * (-3.0) + 10.0 = 4.0
-```
-
-### 2. Automatic Differentiation
-```python
-# Backpropagation
-d.backward()
-
-# View gradients
-print(f"d/da: {a.grad}")  # -3.0
-print(f"d/db: {b.grad}")  # 2.0
-print(f"d/dc: {c.grad}")  # 1.0
-```
-
-### 3. Computational Graph Visualization
-```python
-from utils import draw_dot
-
-# Draw computational graph
-draw_dot(d).render()
-```
 
 ## Project Structure
 
