@@ -1,57 +1,57 @@
-# Makemore Projesi
+# Makemore Project
 
-Bu proje, Andrej Karpathy'nin "makemore" serisinden esinlenilerek oluşturulmuş bir karakter-seviyesi dil modelidir. Model, verilen örnek kelimelere benzer yeni kelimeler üretmeyi öğrenir.
+This is a character-level language model inspired by Andrej Karpathy's "makemore" series. The model learns to generate new words similar to the given example words.
 
-## Proje Hakkında
+## About the Project
 
-Bu proje şunları içerir:
-- Karakter tabanlı dil modeli implementasyonu
-- PyTorch kullanarak sinir ağı uygulaması
-- Kelime üretimi için bigram modeli
-- Eğitim sürecinin görselleştirilmesi
+This project includes:
+- Character-based language model implementation
+- Neural network implementation using PyTorch
+- Bigram model for word generation
+- Training process visualization
 
-## Kurulum
+## Installation
 
-1. Gerekli paketleri yükleyin:
+1. Install required packages:
 ```bash
 pip install torch numpy matplotlib jupyter
 ```
 
-2. Projeyi klonlayın:
+2. Clone the project:
 ```bash
-git clone https://github.com/[kullanıcı-adınız]/micrograd.git
+git clone https://github.com/[your-username]/micrograd.git
 cd micrograd
 ```
 
-## Kullanım
+## Usage
 
-1. Jupyter Notebook'u başlatın:
+1. Start Jupyter Notebook:
 ```bash
 jupyter notebook
 ```
 
-2. `makemore.ipynb` dosyasını açın
-3. Notebook'taki hücreleri sırasıyla çalıştırın
+2. Open `makemore.ipynb`
+3. Run the cells in order
 
-## Veri Seti
+## Dataset
 
-Proje, `names.txt` dosyasındaki isimleri kullanarak eğitilir. Bu dosya her satırda bir isim içerir.
+The project is trained using names in the `names.txt` file. This file contains one name per line.
 
-## Model Detayları
+## Model Details
 
-- Girdi: Karakter dizileri
-- Çıktı: Sonraki karakterin olasılık dağılımı
-- Eğitim: Cross-entropy loss kullanılarak gradient descent
-- Aktivasyon: Tanh ve Softmax fonksiyonları
+- Input: Character sequences
+- Output: Probability distribution of the next character
+- Training: Gradient descent using cross-entropy loss
+- Activation: Tanh and Softmax functions
 
-## Lisans
+## License
 
-Bu proje MIT lisansı altında lisanslanmıştır. Detaylar için `LICENSE` dosyasına bakınız.
+This project is licensed under the MIT License. See the `LICENSE` file for details.
 
-## Katkıda Bulunma
+## Contributing
 
-1. Bu depoyu fork edin
-2. Yeni bir branch oluşturun (`git checkout -b yeni-ozellik`)
-3. Değişikliklerinizi commit edin (`git commit -am 'Yeni özellik eklendi'`)
-4. Branch'inizi push edin (`git push origin yeni-ozellik`)
-5. Pull Request oluşturun
+1. Fork this repository
+2. Create a new branch (`git checkout -b new-feature`)
+3. Commit your changes (`git commit -am 'Added new feature'`)
+4. Push to the branch (`git push origin new-feature`)
+5. Create a Pull Request
